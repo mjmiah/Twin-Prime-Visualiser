@@ -8,7 +8,7 @@ def isPrime(x): #checks if number is prime
     return True
 
 def isTwin(x): #checks if number is twin prime
-    if isPrime(x-2): 
+    if isPrime(x-2) or isPrime(x+2): 
         return True
     else:
         return False
